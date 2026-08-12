@@ -5,11 +5,11 @@ import commerce from "@/assets/project-commerce.jpg";
 import devtool from "@/assets/project-devtool.jpg";
 import diplomaMaster from "@/assets/diploma-master.jpg";
 import diplomaBachelor from "@/assets/diploma-bachelor.jpg";
-import certAws from "@/assets/cert-aws.jpg";
-import certMl from "@/assets/cert-ml.jpg";
-import certMeta from "@/assets/cert-meta.jpg";
-import certPostgres from "@/assets/cert-postgres.jpg";
+import certAws from "@/assets/AWS_CERT.png";
 
+import certMeta from "@/assets/cert-meta.jpg";
+import googleIt from "@/assets/Google_IT.png";
+import certML from "@/assets/ML_CERT.png"
 export const profile = {
   name: "Loukmene Elhakim Achouche",
   shortName: "Loukmene",
@@ -31,7 +31,6 @@ export const profile = {
     "I enjoy combining software engineering, data and intelligent technologies to solve real world problems and turn ideas into useful products.",
   ],
 };
-
 export const whatIDo = [
   {
     title: "Software Engineering",
@@ -89,49 +88,56 @@ export const education = [
 
 export const certificates = [
   {
+    title: "Google IT Support Professional Certificate",
+    organization: "Google",
+    date: "2024",
+    credentialId: "9YRL3U4YHXNE",
+    category: "Information Technology",
+    skills: [
+      "Technical Support",
+      "IT Support",
+      "Desktop Support",
+      "Help Desk Support",
+      "Computer Networking",
+      "Network Support",
+      "Hardware Troubleshooting",
+      "Computer Hardware",
+      "Software Installation",
+      "Package and Software Management",
+      "Operating Systems",
+      "Computer Systems",
+      "Technical Documentation",
+      "Technical Writing",
+      "End User Training and Support",
+      "Customer Support",
+      "System Support",
+      "Information Technology",
+    ],
+    url: "https://www.coursera.org/account/accomplishments/professional-cert/certificate/9YRL3U4YHXNE",
+    image: googleIt,
+  },
+  {
     title: "AWS Certified Cloud Practitioner",
     organization: "Amazon Web Services",
     date: "2025",
     credentialId: "AWS-CCP-000000",
     category: "Cloud",
-    skills: ["AWS", "Cloud Architecture", "Security"],
-    url: "https://example.com/certificate",
-    /** Certificate picture: import it above and set it here. Leave null to hide. */
+    
+
+    skills: ["AWS", "Cloud Architecture", "Security", "AWS Core Services", "AWS Pricing"],
+    url: "https://www.credly.com/badges/ede2461f-ba86-4908-b9e0-3e2183d7ce11/print",
     image: certAws,
   },
   {
     title: "Machine Learning Specialization",
     organization: "DeepLearning.AI",
     date: "2025",
-    credentialId: "ML-SPEC-000000",
+    credentialId: "AZIS1ZQ1U772",
     category: "AI & Data",
     skills: ["Python", "Supervised Learning", "Neural Networks"],
-    url: "https://example.com/certificate",
-    /** Certificate picture: import it above and set it here. Leave null to hide. */
-    image: certMl,
-  },
-  {
-    title: "Meta Front-End Developer",
-    organization: "Meta",
-    date: "2024",
-    credentialId: "META-FE-000000",
-    category: "Development",
-    skills: ["React", "JavaScript", "UI Engineering"],
-    url: "https://example.com/certificate",
-    /** Certificate picture: import it above and set it here. Leave null to hide. */
-    image: certMeta,
-  },
-  {
-    title: "PostgreSQL for Developers",
-    organization: "Coursera",
-    date: "2024",
-    credentialId: "PG-DEV-000000",
-    category: "Development",
-    skills: ["SQL", "PostgreSQL", "Data Modeling"],
-    url: "https://example.com/certificate",
-    /** Certificate picture: import it above and set it here. Leave null to hide. */
-    image: certPostgres,
-  },
+    url: "https://www.coursera.org/account/accomplishments/specialization/AZIS1ZQ1U772",
+    image: certML,
+  }
 ];
 
 export const experience = [
@@ -235,7 +241,7 @@ export const skills = [
   {
     category: "Tools",
     icon: "Wrench",
-    items: ["Git", "GitHub", "AWS", "Docker"],
+    items: ["Git", "GitHub", "AWS", "Docker", "Kubernetes", "Linux", "Power BI"],
   },
 ];
 
