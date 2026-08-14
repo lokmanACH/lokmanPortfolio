@@ -59,9 +59,7 @@ export const education = [
     start: "2024",
     end: "2026",
     status: "Graduated",
-    /** Diploma picture: put the file in src/assets/, import it at the top of
-     *  this file (e.g. import masterDiploma from "@/assets/master-diploma.jpg")
-     *  and set image: masterDiploma. Leave null to hide. */
+
     image: null,
     description:
       "Advanced coursework in machine learning, distributed data processing and intelligent systems, with a thesis on applied deep learning.",
@@ -118,10 +116,22 @@ export const certificates = [
 
     skills: [
       "AWS",
-      "Cloud Architecture",
-      "Security",
+      "Cloud Computing",
       "AWS Core Services",
+      "Cloud Architecture",
+      "Cloud Security",
+      "AWS IAM",
+      "AWS Networking",
+      "AWS Storage",
+      "AWS Compute",
+      "AWS Databases",
+      "AWS Monitoring",
+      "Cloud Economics",
       "AWS Pricing",
+      "AWS Billing",
+      "AWS Shared Responsibility Model",
+      "High Availability",
+      "Scalability",
     ],
     url: "https://www.credly.com/badges/ede2461f-ba86-4908-b9e0-3e2183d7ce11/print",
     image: certAws,
