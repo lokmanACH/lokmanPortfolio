@@ -111,7 +111,7 @@ export const certificates = [
     title: "AWS Certified Cloud Practitioner",
     organization: "Amazon Web Services",
     date: "2025",
-    credentialId: "AWS-CCP-000000",
+    credentialId: "ede2461f-ba86-4908-b9e0-3e2183d7ce11",
     category: "Cloud",
 
     skills: [
