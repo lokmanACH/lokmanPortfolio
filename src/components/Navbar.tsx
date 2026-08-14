@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X, Sparkles } from "lucide-react";
 import { navLinks, profile } from "@/data/portfolio";
+import wolf from "@/assets/wolfLogo.png"
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -34,8 +35,9 @@ export function Navbar() {
           href="#home"
           className="flex min-w-0 items-center gap-2 text-base font-semibold tracking-tight"
         >
-          <span className="grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-[image:var(--gradient-brand)] text-primary-foreground">
-            <Sparkles className="h-4 w-4" aria-hidden="true" />
+          <span className="grid h-9 w-9 shrink-0 place-items-center rounded-lg  text-primary-foreground">
+
+            <img src={wolf}/>
           </span>
           <span className="truncate">{profile.name}</span>
         </a>

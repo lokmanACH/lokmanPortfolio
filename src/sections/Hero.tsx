@@ -1,4 +1,4 @@
-import { ArrowRight, Download, Github, Linkedin, Mail, Phone, Camera } from "lucide-react";
+import { ArrowRight, Download, Github, Linkedin, Mail, Phone, Camera, ArrowDown } from "lucide-react";
 import { profile } from "@/data/portfolio";
 import { Reveal } from "@/components/Reveal";
 
@@ -51,12 +51,11 @@ export function Hero() {
                 <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
               </a>
               <a
-                href={profile.cvUrl}
-                download
+                href="#contact"
                 className="inline-flex items-center gap-2 rounded-full border border-border bg-surface px-6 py-3 text-sm font-medium transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/50 hover:bg-surface-2"
               >
-                <Download className="h-4 w-4" />
-                Download CV
+                <ArrowDown className="h-4 w-4" />
+                Contact Me
               </a>
             </div>
           </Reveal>
@@ -100,7 +99,7 @@ export function Hero() {
                         <Camera className="h-7 w-7" aria-hidden="true" />
                       </span>
                       <span className="font-mono text-xs uppercase tracking-[0.3em]">
-                        Your Photo
+                        Avatar
                       </span>
                     </div>
                   </div>
@@ -113,11 +112,11 @@ export function Hero() {
             <p className="font-mono text-[11px] uppercase tracking-widest text-muted-foreground">
               Focus
             </p>
-            <p className="text-sm font-medium">Full-Stack · AI</p>
+            <p className="text-sm font-medium">IT · Cloud · DevOps · AI</p>
           </div>
           <div className="glass absolute -right-4 top-8 hidden rounded-2xl px-4 py-3 sm:block">
             <p className="font-mono text-[11px] uppercase tracking-widest text-muted-foreground">
-              Based in
+              Linving in
             </p>
             <p className="text-sm font-medium">{profile.location}</p>
           </div>

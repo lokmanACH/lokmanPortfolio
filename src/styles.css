@@ -63,9 +63,10 @@
   --ring: oklch(0.52 0.21 290);
   --surface: oklch(1 0 0 / 70%);
   --surface-2: oklch(0.52 0.21 290 / 7%);
-  --violet: oklch(0.53 0.2 295);
-  --blue: oklch(0.53 0.17 255);
-  --cyan: oklch(0.55 0.11 205);
+--violet: oklch(72% 0.20 55);
+--cyan:   oklch(65% 0.24 25);
+--blue:   oklch(65% 0.24 25);
+--ava:   oklch(84.434% 0.11088 65.343);
   --gradient-brand: linear-gradient(120deg, var(--violet), var(--blue) 55%, var(--cyan));
   --shadow-elegant: 0 24px 70px -30px oklch(0.5 0.2 285 / 35%);
   --shadow-card: 0 1px 0 0 oklch(1 0 0 / 60%) inset, 0 20px 50px -34px oklch(0.3 0.05 275 / 45%);
