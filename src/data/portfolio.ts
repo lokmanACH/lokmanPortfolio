@@ -81,7 +81,7 @@ export const certificates = [
   {
     title: "Google IT Support Professional Certificate",
     organization: "Google",
-    date: "2024",
+    date: "2026",
     credentialId: "9YRL3U4YHXNE",
     category: "Information Technology",
     skills: [
