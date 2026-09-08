@@ -1,5 +1,6 @@
 import avatar2 from "@/assets/avatar2.png";
 import studentManagement from "@/assets/student_managment.jpg";
+import easa from "@/assets/cover.jpg"
 
 import certAws from "@/assets/AWS_CERT.png";
 
@@ -231,6 +232,34 @@ export const experience = [
 ];
 
 export const projects = [
+  {
+  name: "Enterprise AI Support Agent (EASA)",
+
+  description:
+    "An open-source AI-powered enterprise support platform that allows organizations to upload their documentation and resources, then uses Retrieval-Augmented Generation (RAG) with embeddings and Gemini AI to provide clients with accurate answers based on the organization's own knowledge base.",
+
+  image: easa,
+
+  technologies: [
+    "React.js",
+    "Tailwind CSS",
+    "Node.js",
+    "PostgreSQL",
+    "AWS RDS",
+    "AWS S3",
+    "Gemini API",
+    "RAG",
+    "Embeddings",
+  ],
+
+  github:
+    "https://github.com/lokmanACH/Enterprise_AI_Support_Agent-EASA",
+
+  demo:
+    "https://drive.google.com/file/d/17UIeiiTICq1e1E54q2axOfFxprc56dvv/view?usp=sharing",
+
+  featured: true,
+},
   {
     name: "Student Management & Academic Orientation System",
 
