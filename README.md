@@ -52,7 +52,7 @@ This portfolio can be deployed to Vercel, Netlify, or any static hosting provide
 ## Contact
 
 - Email: lokmanelhakimachouche0@gmail.com
-- LinkedIn: https://www.linkedin.com/in/your-profile
+- LinkedIn: www.linkedin.com/in/lokman-elhakim-achouche-9a8189327
 - GitHub: https://github.com/lokmanACH
 
 ## How to Update
