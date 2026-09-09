@@ -51,7 +51,7 @@ This portfolio can be deployed to Vercel, Netlify, or any static hosting provide
 
 ## Contact
 
-- Email: your-email@example.com
+- Email: lokmanelhakimachouche0@gmail.com
 - LinkedIn: https://www.linkedin.com/in/your-profile
 - GitHub: https://github.com/lokmanACH
 
