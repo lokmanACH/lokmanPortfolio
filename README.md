@@ -6,14 +6,6 @@ Welcome to my personal portfolio repository. This site showcases my projects, sk
 
 Hi — I'm Lokman, a software developer passionate about building web applications and learning new technologies. This portfolio highlights selected projects, my technical skills, and ways to get in touch.
 
-## Featured Projects
-
-- Project A — short description (link to project folder or live demo)
-- Project B — short description (link to project folder or live demo)
-- Project C — short description (link to project folder or live demo)
-
-(Replace the placeholders above with project names, descriptions, and links.)
-
 ## Tech Stack
 
 - Frontend: HTML, CSS, JavaScript, React, TypeScript
