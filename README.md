@@ -1,0 +1,70 @@
+# Lokman's Portfolio
+
+Welcome to my personal portfolio repository. This site showcases my projects, skills, and contact information.
+
+## About Me
+
+Hi — I'm Lokman, a software developer passionate about building web applications and learning new technologies. This portfolio highlights selected projects, my technical skills, and ways to get in touch.
+
+## Featured Projects
+
+- Project A — short description (link to project folder or live demo)
+- Project B — short description (link to project folder or live demo)
+- Project C — short description (link to project folder or live demo)
+
+(Replace the placeholders above with project names, descriptions, and links.)
+
+## Tech Stack
+
+- Frontend: HTML, CSS, JavaScript, React, TypeScript
+- Backend: Node.js, Express
+- Database: PostgreSQL / MongoDB
+- Tools: Git, GitHub, Vercel / Netlify
+
+## Local Development
+
+To run the portfolio locally:
+
+1. Clone the repo:
+
+```
+git clone https://github.com/lokmanACH/lokmanPortfolio.git
+cd lokmanPortfolio
+```
+
+2. Install dependencies (if applicable):
+
+```
+# example for a Node/React project
+npm install
+```
+
+3. Start the development server:
+
+```
+npm start
+```
+
+## Deployment
+
+This portfolio can be deployed to Vercel, Netlify, or any static hosting provider. Configure your build settings if using a framework.
+
+## Contact
+
+- Email: your-email@example.com
+- LinkedIn: https://www.linkedin.com/in/your-profile
+- GitHub: https://github.com/lokmanACH
+
+## How to Update
+
+Edit the content in this repository to add projects, screenshots, and more details. Update the links and contact information to keep it current.
+
+---
+
+If you'd like, I can:
+
+- Add project sections with links to each repository and demo
+- Add badges (build, license, contact)
+- Create a simple index.html or React app scaffold for the portfolio
+
+Tell me which changes you want next and I will update the repo.
