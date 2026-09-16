@@ -18,16 +18,6 @@ export function Hero() {
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-[1.15fr_0.85fr]">
         <div>
-          <Reveal>
-            <span className="inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3.5 py-1.5 text-xs text-muted-foreground">
-              <span className="relative flex h-2 w-2">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-cyan opacity-70" />
-                <span className="relative inline-flex h-2 w-2 rounded-full bg-cyan" />
-              </span>
-              {profile.availability}
-            </span>
-          </Reveal>
-
           <Reveal delay={80}>
             <h1 className="mt-6 text-balance text-4xl font-semibold leading-[1.05] sm:text-6xl lg:text-7xl">
               Hi, I'm <span className="text-gradient">{profile.shortName}</span>
