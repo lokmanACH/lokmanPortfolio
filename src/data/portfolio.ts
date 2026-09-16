@@ -1,9 +1,9 @@
 import avatar2 from "@/assets/avatar2.png";
 import studentManagement from "@/assets/student_managment.jpg";
-import easa from "@/assets/cover.jpg"
+import easa from "@/assets/cover.jpg";
+import pram from "@/assets/PRAM.jpeg";
 
 import certAws from "@/assets/AWS_CERT.png";
-
 import googleIt from "@/assets/Google_IT.png";
 import certML from "@/assets/ML_CERT.png";
 export const profile = {
@@ -233,35 +233,64 @@ export const experience = [
 
 export const projects = [
   {
-  name: "Enterprise AI Support Agent (EASA)",
+    name: "Enterprise AI Support Agent (EASA)",
 
-  description:
-    "An open-source AI-powered enterprise support platform that allows organizations to upload their documentation and resources, then uses Retrieval-Augmented Generation (RAG) with embeddings and Gemini AI to provide clients with accurate answers based on the organization's own knowledge base.",
+    description:
+      "An open-source AI-powered enterprise support platform that allows organizations to upload their documentation and resources, then uses Retrieval-Augmented Generation (RAG) with embeddings and Gemini AI to provide clients with accurate answers based on the organization's own knowledge base.",
 
-  image: easa,
+    image: easa,
 
-  technologies: [
-    "React.js",
-    "Tailwind CSS",
-    "Node.js",
-    "PostgreSQL",
-    "AWS RDS",
-    "AWS S3",
-    "Gemini API",
-    "RAG",
-    "Embeddings",
-  ],
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "PostgreSQL",
+      "AWS RDS",
+      "AWS S3",
+      "Gemini API",
+      "RAG",
+      "Embeddings",
+    ],
 
-  github:
-    "https://github.com/lokmanACH/Enterprise_AI_Support_Agent-EASA",
+    github: "https://github.com/lokmanACH/Enterprise_AI_Support_Agent-EASA",
 
-  demo:
-    "https://drive.google.com/file/d/17UIeiiTICq1e1E54q2axOfFxprc56dvv/view?usp=sharing",
+    demo: "https://drive.google.com/file/d/17UIeiiTICq1e1E54q2axOfFxprc56dvv/view?usp=sharing",
 
-  featured: true,
-},
+    featured: true,
+  },
   {
-    name: "Student Management & Academic Orientation System",
+    name: "Production-Ready Authentication Microservice (PRAM)",
+
+    description:
+      "A production-style authentication microservice built with Node.js that provides secure user authentication, OTP email verification, JWT-based authorization, RBAC, role and user management, and Redis-based authentication caching. The service is containerized with Docker, deployed behind Nginx with load balancing, connected to AWS RDS PostgreSQL, and monitored using Prometheus, Node Exporter, and Grafana.",
+
+    image: pram,
+
+    technologies: [
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "AWS RDS",
+      "Redis",
+      "Docker",
+      "Nginx",
+      "Prometheus",
+      "Node Exporter",
+      "Grafana",
+      "JWT",
+      "RBAC",
+      "Nodemailer",
+    ],
+
+    github:
+      "https://github.com/lokmanACH/Production-Ready-Authentication-Microservice_PRAM",
+
+    demo: "https://drive.google.com/file/d/10A3U2vW4CUDOJsHBpjvJ05XY8GG1bLzZ/view?usp=sharing",
+
+    featured: true,
+  },
+  {
+    name: "Student Management & Academic Orientation System (SMAOS)",
 
     description:
       "A comprehensive student management system for managing student records, calculating academic grades, evaluating major eligibility, and automatically ranking students based on their academic performance and the available places in each major.",
@@ -315,7 +344,9 @@ export const skills = [
       "GitHub",
       "AWS",
       "Docker",
-      "Kubernetes",
+      "Nginx",
+      "Prometheus",
+      "Grafana",
       "Linux",
       "Power BI",
     ],
