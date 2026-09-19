@@ -2,6 +2,7 @@ import avatar2 from "@/assets/avatar2.png";
 import studentManagement from "@/assets/student_managment.jpg";
 import easa from "@/assets/cover.jpg";
 import pram from "@/assets/PRAM.jpeg";
+import wolfBook from "@/assets/the_wolf_background.png"
 
 import certAws from "@/assets/AWS_CERT.png";
 import googleIt from "@/assets/Google_IT.png";
@@ -289,6 +290,28 @@ export const projects = [
 
     featured: true,
   },
+  {
+  name: "THE WOLF BOOK 🐺",
+
+  description:
+    "An open-source, keyboard-first terminal troubleshooting knowledge base that allows developers to organize technical problems by categories, document how they solved them, and store reusable solution steps and commands. The application uses a simple filesystem and JSON-based storage model and can be distributed and run through Docker with persistent host-mounted data.",
+
+  image: wolfBook,
+
+  technologies: [
+    "Python",
+    "Textual",
+    "JSON",
+    "Filesystem Storage",
+    "Docker",
+  ],
+
+  github: "https://github.com/lokmanACH/HOME-LAB/tree/main/THE_WOLF_BOOK_PROJECT",
+
+  demo: "https://drive.google.com/file/d/19BXAQN8mEqLn6nPX8zYFj5XAu_47ga2H/view?usp=sharing",
+
+  featured: true,
+},
   {
     name: "Student Management & Academic Orientation System (SMAOS)",
 
