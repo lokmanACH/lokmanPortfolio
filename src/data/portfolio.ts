@@ -2,7 +2,8 @@ import avatar2 from "@/assets/avatar2.png";
 import studentManagement from "@/assets/student_managment.jpg";
 import easa from "@/assets/cover.jpg";
 import pram from "@/assets/PRAM.jpeg";
-import wolfBook from "@/assets/the_wolf_background.png"
+import wolfBook from "@/assets/the_wolf_background.png";
+import edusense from "@/assets/edusense.png"
 
 import certAws from "@/assets/AWS_CERT.png";
 import googleIt from "@/assets/Google_IT.png";
@@ -231,7 +232,7 @@ export const experience = [
     ],
   },
 ];
-
+// https://drive.google.com/file/d/1Nk741z6LxjEY2SvL6U0DNnIRykH9sYwR/view?usp=sharing
 export const projects = [
   {
     name: "Enterprise AI Support Agent (EASA)",
@@ -291,27 +292,57 @@ export const projects = [
     featured: true,
   },
   {
-  name: "THE WOLF BOOK 🐺",
+    name: "EduSense — AI-Powered Student Assessment SaaS",
 
-  description:
-    "An open-source, keyboard-first terminal troubleshooting knowledge base that allows developers to organize technical problems by categories, document how they solved them, and store reusable solution steps and commands. The application uses a simple filesystem and JSON-based storage model and can be distributed and run through Docker with persistent host-mounted data.",
+    description:
+      "An AI-powered SaaS platform designed to assist teachers in correcting students' papers, analyzing their answers, identifying knowledge gaps, and generating meaningful feedback and learning insights. EduSense implements a multi-stage AI pipeline that starts with fine-tuned Detectron2 models for document layout detection, followed by PaddleOCR for extracting text, tables, and mathematical formulas, and Large Language Models (LLMs) for analyzing students' answers and generating detailed assessment insights and feedback. The platform is built as a full-stack SaaS application using Next.js and React for the frontend, Node.js for the backend, FastAPI for AI services, and MongoDB for data storage.",
 
-  image: wolfBook,
+    image: edusense,
 
-  technologies: [
-    "Python",
-    "Textual",
-    "JSON",
-    "Filesystem Storage",
-    "Docker",
-  ],
+    technologies: [
+      "Next.js",
+      "React",
+      "Node.js",
+      "FastAPI",
+      "Python",
+      "MongoDB",
+      "Detectron2",
+      "PaddleOCR",
+      "PyTorch",
+      "Computer Vision",
+      "Deep Learning",
+      "OCR",
+      "Document AI",
+      "LLMs",
+      "NLP",
+      "Generative AI",
+      "SaaS",
+    ],
 
-  github: "https://github.com/lokmanACH/HOME-LAB/tree/main/THE_WOLF_BOOK_PROJECT",
+    github: "https://edusense-official.vercel.app/",
 
-  demo: "https://drive.google.com/file/d/19BXAQN8mEqLn6nPX8zYFj5XAu_47ga2H/view?usp=sharing",
+    demo: "https://drive.google.com/file/d/1Nk741z6LxjEY2SvL6U0DNnIRykH9sYwR/view?usp=sharing",
 
-  featured: true,
-},
+    featured: true,
+  },
+
+  {
+    name: "THE WOLF BOOK 🐺",
+
+    description:
+      "An open-source, keyboard-first terminal troubleshooting knowledge base that allows developers to organize technical problems by categories, document how they solved them, and store reusable solution steps and commands. The application uses a simple filesystem and JSON-based storage model and can be distributed and run through Docker with persistent host-mounted data.",
+
+    image: wolfBook,
+
+    technologies: ["Python", "Textual", "JSON", "Filesystem Storage", "Docker"],
+
+    github:
+      "https://github.com/lokmanACH/HOME-LAB/tree/main/THE_WOLF_BOOK_PROJECT",
+
+    demo: "https://drive.google.com/file/d/19BXAQN8mEqLn6nPX8zYFj5XAu_47ga2H/view?usp=sharing",
+
+    featured: true,
+  },
   {
     name: "Student Management & Academic Orientation System (SMAOS)",
 
